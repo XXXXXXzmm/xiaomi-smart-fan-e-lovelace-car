@@ -46,11 +46,11 @@ const entityFilters: { [name in keyof Required<DeviceEntities>]: { prefix: strin
   },
   childLock: {
     prefix: "switch.",
-    suffix: "_child_lock",
+    suffix: "_physical_control_locked",
   },
   timer: {
     prefix: "number.",
-    suffix: "_delay_off_countdown",
+    suffix: "_off_delay_time",
   },
   ledNumber: {
     prefix: "number.",
